@@ -1,6 +1,6 @@
 MODEL:
   META_ARCHITECTURE: "GeneralizedRCNN"
-  WEIGHT: "catalog://ImageNetPretrained/MSRA/R-50"
+  WEIGHT: "/kaggle/input/testmodel/model_final.pkl"
   BACKBONE:
     CONV_BODY: "R-50-FPN"
   RESNETS:
